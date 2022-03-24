@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1000px;
+}
+
+#scoiattolo1 {
+    width: 270px;
+    height: 250px;
+    margin-left: 150%;
+    margin-top: -24%;
+}
+
+#scoiattolo2 {
+    width: 270px;
+    height: 200px;
+    margin-left: 150%;
+    margin-top: -21%;
+}

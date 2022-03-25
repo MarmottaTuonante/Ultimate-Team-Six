@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -10,7 +10,7 @@
     margin-top: 8px;
 }
 
-.class{
+.class {
     color: white;
     font-weight: bold;
     font-size: medium;
@@ -33,7 +33,7 @@
 }
 
 
-ul li{
+ul li {
 
     color: white;
 }

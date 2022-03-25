@@ -55,11 +55,16 @@
          <textarea name="SCRIVICI" id="areatext" cols="105" rows="10" placeholder="Pensi che la marmotta o lo scoiattolo siano reciprocamente in ragione sull'altro? Scrivici il tuo parere!"></textarea>
          <br>
          <form action="landing.html">
-             <input type="text" placeholder="Il tuo nome"> 
-             <input type="text" placeholder="Il tuo cognome"> 
-             <input type="text" placeholder="La tua confessione religiosa"> 
-             <input type="text" placeholder="Il tuo IBAN per donare l'8x1000 alla povera marmotta" size="42">
-             <input type="submit" value="Se hai completato tutto, sopratutto l'IBAN, CLICCA QUI!" name="yes">
+             <label for="N" class="class">Nome</label>
+             <input type="text" placeholder="Il tuo nome" id="N">
+             <label for="C" class="class">Cognome</label>
+             <input type="text" placeholder="Il tuo cognome" id="C">
+             <label for="R" class="class">Religione</label> 
+             <input type="text" placeholder="La tua confessione religiosa" id="R">
+             <br> 
+             <label for="I" class="class">8x1000</label>
+             <input type="text" placeholder="Il tuo IBAN per donare l'8x1000 alla povera marmotta" size="42" id="I">
+             <input type="submit" value="Se hai completato tutto, sopratutto l'IBAN, CLICCA QUI!" name="yes" id="B">
             </form>
         </div>
     </footer>

@@ -18,6 +18,10 @@
     border-radius: 7px;
 }
 
+.paragraph{
+    font-weight: bold;
+}
+
 #scoiattolo1 {
     width: 270px;
     height: 250px;

@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://helios-i.mashable.com/imagery/articles/03bDuXus9Lsnz9sUqURbDiB/hero-image.fill.size_1248x702.v1643714839.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+label{
+    color: bisque;
+    font-size: large;
+    margin-left: 10px;
+}
+
+input{
+    margin-left: 10px;
+}
+
+select{
+    margin-left: 10px;
+}
+
+.container{
+    width: 870px;
+    height: 851px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 40px;
+    border-radius: 30px;
+}
+
+.title{
+    text-align: center;
+    padding: 5px;
+    color: aqua;
+}
+
+.title2{
+    margin-left: 10px;
+    color: orange;
+}
+
+.paragraph{
+    font-size: large;
+    font-weight: bold;
+    color: blanchedalmond;
+    text-align: center;
+    text-decoration: dotted;   
+}
+
+.bar1{
+    background-color: red;
+    width: 200px;
+    height: 29px;
+    color: rgb(255, 55, 55);
+    margin-left: 6px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 18px;
+}
+
+.inline{
+    font-size: large;
+    font-weight: bold;
+    color: bisque;
+    float: left;
+    margin-left: 14px;
+    font-variant-numeric: oldstyle-nums;
+    margin-top: 18px;
+}
